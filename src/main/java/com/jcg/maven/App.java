@@ -14,9 +14,9 @@ public class App
     }
 
 
-    public void notCovered() {
-        System.out.println("notCovered");
-    }
+   // public void notCovered() {
+   //     System.out.println("notCovered");
+   // }
 
 
     public void newMethod(){
