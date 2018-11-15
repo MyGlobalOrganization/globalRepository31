@@ -14,10 +14,6 @@ public class App
     }
 
 
-   // public void notCovered() {
-   //     System.out.println("notCovered");
-   // }
-
 
     public void newMethod(){
     int target = -5;
