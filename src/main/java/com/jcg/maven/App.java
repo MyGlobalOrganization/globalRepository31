@@ -8,7 +8,14 @@ public class App
 {
 
 
+    private static final int MAX_PRICE = 10;
 
+
+
+    public void setPriceGitChecks(int price) {
+        assert price >= 0 && price <= MAX_PRICE;
+        // Set the price
+    }
 
 
     public class CarGitChecks{
