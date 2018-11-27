@@ -7,33 +7,7 @@ package com.jcg.maven;
 public class App 
 {
 
-    private static final int MAX_PRICE = 10;
 
-    public static void main(String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
-
-
-
-    public void newMethodGitchecks(){
-        int target = -5;
-        int num = 3;
-
-        target =- num;  // Noncompliant; target = -3. Is that really what's meant?
-        target =+ num; // Noncompliant; target = 3
-
-
-        String str = "/File|Name.txt";
-
-
-
-    }
-
-    public void setPriceGitChecks(int price) {
-        assert price >= 0 && price <= MAX_PRICE;
-        // Set the price
-    }
 
 
     public class CarGitChecks{
