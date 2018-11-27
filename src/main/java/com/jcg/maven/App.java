@@ -53,11 +53,12 @@ public class App
     }
 
 
-    public void aMethod(){
-        int i=0;
-        while (i<10){
+    public void aMethod() {
+        int i = 0;
+        while (i < 10) {
             i++;
         }
+    }
 
 
 
