@@ -38,7 +38,7 @@ public class App
             System.out.println("Tear Down");
         }
 
-        public void drive() {System.out.println("Drive");}  // Noncompliant; duplicates field name
+
     }
 
 
