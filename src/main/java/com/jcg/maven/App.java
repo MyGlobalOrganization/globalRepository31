@@ -34,30 +34,7 @@ public class App
 
     }
 
-    public void setPriceGitChecks(int price) {
-        assert price >= 0 && price <= MAX_PRICE;
-        // Set the price
-    }
 
-
-    public class CarGitChecks{
-
-        public DriveTrain drive;
-
-        public void tearDown(){
-            System.out.println("Tear Down");
-        }
-
-        public void drive() {System.out.println("Drive");}  // Noncompliant; duplicates field name
-    }
-
-
-    public void aMethod(){
-        int i=0;
-        while (i<10){
-            i++;
-        }
-    }
 
 
 }
