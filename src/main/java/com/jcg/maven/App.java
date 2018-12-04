@@ -34,11 +34,6 @@ public class App
 
     }
 
-    public void setPriceGitChecks(int price) {
-        assert price >= 0 && price <= MAX_PRICE;
-        // Set the price
-    }
-
 
 
     public void anotherMethod(){
