@@ -34,7 +34,32 @@ public class App
 
     }
 
+    public void setPriceGitChecks(int price) {
+        assert price >= 0 && price <= MAX_PRICE;
+        // Set the price
+    }
 
+
+
+    public void anotherMethod(){
+        int j=0;
+        while (j<10){
+            j++;
+        }
+    }
+
+    class A {
+        private int x;
+        private int y;
+
+        public void setX(int val) { // Noncompliant: field 'x' is not updated
+            this.y = val;
+        }
+
+        public int getY() { // Noncompliant: field 'y' is not used in the return value
+            return this.x;
+        }
+    }
 
 
 }
