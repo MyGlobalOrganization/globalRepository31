@@ -25,7 +25,7 @@ public class App
 
         String str = "/File|Name.txt";
 
-        String clean2 = str.replaceAll("|","_"); // Noncompliant; yields _/_F_i_l_e_|_N_a_m_e_._t_x_t_
+        String clean23 = str.replaceAll("|","_"); // Noncompliant; yields _/_F_i_l_e_|_N_a_m_e_._t_x_t_
 
 
     }
