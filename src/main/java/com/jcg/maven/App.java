@@ -18,10 +18,9 @@ public class App
     public void newMethodGitchecks(){
         int target = -5;
         int num = 3;
-//TODO todo
         target =- num;  // Noncompliant; target = -3. Is that really what's meant?
         target =+ num; // Noncompliant; target = 3
-
+//TODO an issue
 
         String str = "/File|Name.txt";
 
