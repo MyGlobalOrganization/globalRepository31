@@ -20,7 +20,7 @@ public class App
         int target = -5;
         int num = 3;
 
-
+    //TODO
         String str = "/File|Name.txt";
 
         String clean = str.replaceAll(".",""); // Noncompliant; probably meant to remove only dot chars, but returns an empty string
