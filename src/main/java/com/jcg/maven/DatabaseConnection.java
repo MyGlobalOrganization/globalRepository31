@@ -18,6 +18,7 @@ public class DatabaseConnection {
             Connection conn = DriverManager.getConnection("jdbc:derby:memory:myDB;create=true", "AppLogin", "");
             Connection conn2 = DriverManager.getConnection("jdbc:derby:memory:myDB;create=true?user=user&password=");
 
+            //TODO blabla
 
             String ip = "192.168.12.42"; // Noncompliant
             try {
