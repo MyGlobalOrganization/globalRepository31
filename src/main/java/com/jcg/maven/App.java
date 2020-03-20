@@ -44,6 +44,18 @@ public class App
             Connection conn2 = DriverManager.getConnection("jdbc:derby:memory:myDB;create=true?user=user&password=");
 
 
+
+            try {
+                conn = DriverManager.getConnection("jdbc:mysql://localhost/test?" +
+                        "user=steve&password=blue"); // Sensitive
+                String uname = "steve";
+                String password = "blue";
+                conn = DriverManager.getConnection("jdbc:mysql://localhost/test?" +
+                        "user=" + uname + "&password=" + password); // Sensitive
+
+                java.net.PasswordAuthentication pa = new java.net.PasswordAuthentication("userName", "1234".toCharArray());  // Sensitive
+
+
             String ip = "192.168.12.42"; // Noncompliant
             try {
                 Socket socket = new Socket(ip, 6667);
